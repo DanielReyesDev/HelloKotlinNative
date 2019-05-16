@@ -1,2 +1,2 @@
 # HelloKotlinNative
-<a href="spltrides://spltrides/">click here</a>
+<a href="https://google.com">click here</a>
