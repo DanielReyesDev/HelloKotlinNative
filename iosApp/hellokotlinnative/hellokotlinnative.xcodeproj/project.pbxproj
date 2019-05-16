@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925F1DC8228DACC200CBA389 /* shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925F1DC7228DACC200CBA389 /* shared.framework */; };
+		925F1DC9228DACC200CBA389 /* shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 925F1DC7228DACC200CBA389 /* shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9265ED3C228D0D00004F0C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265ED3B228D0D00004F0C3C /* AppDelegate.swift */; };
 		9265ED3E228D0D00004F0C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265ED3D228D0D00004F0C3C /* ViewController.swift */; };
 		9265ED41228D0D00004F0C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9265ED3F228D0D00004F0C3C /* Main.storyboard */; };
 		9265ED43228D0D03004F0C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9265ED42228D0D03004F0C3C /* Assets.xcassets */; };
 		9265ED46228D0D03004F0C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9265ED44228D0D03004F0C3C /* LaunchScreen.storyboard */; };
-		9265ED55228D0DD9004F0C3C /* shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265ED54228D0DD9004F0C3C /* shared.framework */; };
-		9265ED56228D0DD9004F0C3C /* shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9265ED54228D0DD9004F0C3C /* shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9265ED53228D0D78004F0C3C /* Embed Frameworks */ = {
+		925F1DC5228DA29700CBA389 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9265ED56228D0DD9004F0C3C /* shared.framework in Embed Frameworks */,
+				925F1DC9228DACC200CBA389 /* shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		925F1DC7228DACC200CBA389 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../../shared/build/xcode-frameworks/shared.framework"; sourceTree = "<group>"; };
 		9265ED38228D0D00004F0C3C /* HelloKotlinNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloKotlinNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265ED3B228D0D00004F0C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9265ED3D228D0D00004F0C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		9265ED42228D0D03004F0C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9265ED45228D0D03004F0C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9265ED47228D0D03004F0C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9265ED54228D0DD9004F0C3C /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../../shared/build/xcode-frameworks/shared.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9265ED55228D0DD9004F0C3C /* shared.framework in Frameworks */,
+				925F1DC8228DACC200CBA389 /* shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		9265ED2F228D0D00004F0C3C = {
 			isa = PBXGroup;
 			children = (
-				9265ED54228D0DD9004F0C3C /* shared.framework */,
+				925F1DC7228DACC200CBA389 /* shared.framework */,
 				9265ED3A228D0D00004F0C3C /* HelloKotlinNative */,
 				9265ED39228D0D00004F0C3C /* Products */,
 				9265ED4D228D0D5A004F0C3C /* Frameworks */,
@@ -98,10 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9265ED4A228D0D03004F0C3C /* Build configuration list for PBXNativeTarget "HelloKotlinNative" */;
 			buildPhases = (
+				925F1DC6228DA42000CBA389 /* ShellScript */,
 				9265ED34228D0D00004F0C3C /* Sources */,
 				9265ED35228D0D00004F0C3C /* Frameworks */,
+				925F1DC5228DA29700CBA389 /* Embed Frameworks */,
 				9265ED36228D0D00004F0C3C /* Resources */,
-				9265ED53228D0D78004F0C3C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +158,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		925F1DC6228DA42000CBA389 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/../../shared/build/xcode-frameworks\"\n./gradlew :shared:build -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9265ED34228D0D00004F0C3C /* Sources */ = {
@@ -313,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RV42WS6MKU;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../shared/build/xcode-frameworks";
 				INFOPLIST_FILE = HelloKotlinNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -332,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RV42WS6MKU;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../shared/build/xcode-frameworks";
 				INFOPLIST_FILE = HelloKotlinNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
