@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		925F1DC8228DACC200CBA389 /* shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925F1DC7228DACC200CBA389 /* shared.framework */; };
-		925F1DC9228DACC200CBA389 /* shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 925F1DC7228DACC200CBA389 /* shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		925F1DCB228DB09300CBA389 /* shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925F1DCA228DB09300CBA389 /* shared.framework */; };
+		925F1DCC228DB09300CBA389 /* shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 925F1DCA228DB09300CBA389 /* shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9265ED3C228D0D00004F0C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265ED3B228D0D00004F0C3C /* AppDelegate.swift */; };
 		9265ED3E228D0D00004F0C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265ED3D228D0D00004F0C3C /* ViewController.swift */; };
 		9265ED41228D0D00004F0C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9265ED3F228D0D00004F0C3C /* Main.storyboard */; };
@@ -17,13 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		925F1DC5228DA29700CBA389 /* Embed Frameworks */ = {
+		925F1DCD228DB09300CBA389 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				925F1DC9228DACC200CBA389 /* shared.framework in Embed Frameworks */,
+				925F1DCC228DB09300CBA389 /* shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		925F1DC7228DACC200CBA389 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../../shared/build/xcode-frameworks/shared.framework"; sourceTree = "<group>"; };
+		925F1DCA228DB09300CBA389 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../../shared/build/xcode-frameworks/shared.framework"; sourceTree = "<group>"; };
 		9265ED38228D0D00004F0C3C /* HelloKotlinNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloKotlinNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265ED3B228D0D00004F0C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9265ED3D228D0D00004F0C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				925F1DC8228DACC200CBA389 /* shared.framework in Frameworks */,
+				925F1DCB228DB09300CBA389 /* shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		9265ED2F228D0D00004F0C3C = {
 			isa = PBXGroup;
 			children = (
-				925F1DC7228DACC200CBA389 /* shared.framework */,
+				925F1DCA228DB09300CBA389 /* shared.framework */,
 				9265ED3A228D0D00004F0C3C /* HelloKotlinNative */,
 				9265ED39228D0D00004F0C3C /* Products */,
 				9265ED4D228D0D5A004F0C3C /* Frameworks */,
@@ -101,8 +101,8 @@
 				925F1DC6228DA42000CBA389 /* ShellScript */,
 				9265ED34228D0D00004F0C3C /* Sources */,
 				9265ED35228D0D00004F0C3C /* Frameworks */,
-				925F1DC5228DA29700CBA389 /* Embed Frameworks */,
 				9265ED36228D0D00004F0C3C /* Resources */,
+				925F1DCD228DB09300CBA389 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
